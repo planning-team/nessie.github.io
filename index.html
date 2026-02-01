@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="NESSIE : Navigation and Embodied Systems for
+        Synthetic Integration and Enhancement">
+  <meta name="keywords" content="Robotics, Datacollection, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nessie</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/nessie.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">NESSIE: Navigation and Embodied Systems for Synthetic Integration and Enhancement</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <p>Vladislav Sarmatin,</p></span>
+            <span class="author-block">
+              <p>Javier Ramirez,</p></span>
+            <span class="author-block">
+              <p>Aleksandr Kashirin,</p></span>
+            <span class="author-block">
+              <p>Iaroslav Kolomiets,</p></span>
+            <span class="author-block">
+              <p>Jingtao Xu,</p></span>
+            <span class="author-block">
+              <p>Anastasija Cvijovic,</p></span>
+            <span class="author-block">
+              <p>Ruslan Babakyan,</p></span>
+            <span class="author-block">
+              <p>Timur Akhtyamov,</p></span>
+            <span class="author-block">
+              <p>Gonzalo Ferrer</p></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://docs.google.com/document/d/1RpxFORBisqkvSBlV5EolKaRPmmJaTSQj7DgC9wo9p1k/edit?tab=t.0"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-book"></i>
+                  </span>
+                  <span>Tutorial</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/planning-team/NESSIE/tree/main"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Datasets</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop content"> 
+      <div class="columns interpolation-panel">
+        <div class="column is-1"></div>
+        <div class="column is-10 vid">
+          <video poster="" autoplay muted controls playsinline height="100%" loop>
+            <source src="./static/videos/IMG_1574.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">NESSIE Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Robotic manipulation datasets at scale remain concentrated
+in controlled laboratory and household settings. Most feature
+fixed lighting, low environmental variability, limited vertical
+reach, and single-item tasks. Scenarios common in ware-
+house and dark-store fulfillment—multi-height shelf access,
+sequential retrieval, and manipulation of diverse objects in
+constrained spaces—are largely absent. Open-source mobile
+manipulators show similar gaps: no available platform com-
+bines bimanual capability, vertical lift, teleoperation, and cost
+feasibility for commercial deployment.
+          </p>
+          <p>
+            This absence limits progress in a domain with high eco-
+nomic impact and strong demand for automation. Fulfill-
+ment robotics requires evaluation on tasks that reflect opera-
+tional realities, not only curated tabletop benchmarks. Public,
+application-driven datasets and platforms can enable more
+generalizable policies and reduce the distance from research
+results to deployed systems.
+          </p>
+          <p>
+            Robots must coordinate two arms for complex actions,
+operate in narrow aisles, adapt to variable lighting, and retrieve
+items from shelves at multiple heights. Collecting diverse,
+high-quality, long-horizon demonstrations under these con-
+straints is costly, physically demanding, and often dependent
+on proprietary hardware.
+          </p>
+          <p>
+            We present NESSIE: a bimanual, vertically capable, master-
+slave mobile manipulation platform and dataset designed for
+dark-store scenarios. NESSIE contains 50 hours of application-
+driven demonstrations in the LeRobot format, combining real-
+world teleoperation with synthetically augmented trajectories via semantic inpainting and trajectory-level stitching. It ad-
+dresses the missing task coverage in existing datasets and
+provides an open, reproducible resource for data-efficient
+learning in commercial fulfillment contexts.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2026nessie,
+  author    = {Vladislav Sarmatin and Javier Ramirez and Aleksandr Kashirin and Iaroslav Kolomiets and Jingtao Xu and Anastasija Cvijovic and Ruslan Babakyan and Timur Akhtyamov and Gonzalo Ferrer},
+  title     = {NESSIE: Navigation and Embodied Systems for Synthetic Integration and Enhancement},
+  journal   = {},
+  year      = {2026},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Template borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
